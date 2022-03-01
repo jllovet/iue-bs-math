@@ -20,3 +20,22 @@ Add the following to VSCode's settings.json:
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.docker.image.latex": "blang/latex",
 ```
+This can either be configured for the entire workspace or for individual projects. If it is configured on a per-directory basis, then `settings.json` should be inside a `.vscode` folder, as shown below
+
+```SHELL
+.
+├── README.md
+└── a-book-to-read
+    ├── .vscode
+    │   └── settings.json
+    └── 001-ch1
+        ├── texout
+        │   ├── .keep
+        │   ├── my_article.aux
+        │   ├── my_article.fdb_latexmk
+        │   ├── my_article.fls
+        │   ├── my_article.log
+        │   ├── my_article.pdf
+        │   └── my_article.synctex.gz
+        └── my_article.tex
+```
