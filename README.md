@@ -1,6 +1,9 @@
 # Indiana University East Bachelors of Science in Mathematics
+---
 
 Here you will find Jonathan Llovet's notebooks, papers, code, helpful references, and other work towards the IUE B.S. in Mathematics.
+
+**Note:** Some of the projects in this repo will require some software dependencies. Where possible, I will provide a dockerized environment for each of them, to abstract away the setup. Docker is a tool used frequently in software engineering for creating containers, which are similar to lightweight virtual machines, but make more efficient use of the resources of the underlying host machine. [Docker Overview.](https://docs.docker.com/get-started/overview/)
 
 ## About
 
