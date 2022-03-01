@@ -1,0 +1,6 @@
+**/texout/*.aux
+**/texout/*.fdb_latexmk
+**/texout/*.fls
+**/texout/*.log
+**/texout/*.pdf
+**/texout/*.synctex.gz
