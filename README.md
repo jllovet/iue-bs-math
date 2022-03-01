@@ -3,7 +3,7 @@
 
 Here you will find my notebooks, papers, code and other work towards the IUE B.S. in Mathematics. Sprinkled among these attempts at clear thinking are resources and reflections you may find helpful about mathematics, software, and philosophy.
 
-**Note:** Some of the projects in this repo will require some software dependencies. Where possible, I will provide a dockerized environment for each of them, to abstract away the setup. Docker is a tool used frequently in software engineering for creating containers, which are similar to lightweight virtual machines, but make more efficient use of the resources of the underlying host machine. [Docker Overview.](https://docs.docker.com/get-started/overview/)
+   >**Note:** Some of the projects in this repo will require some software dependencies. See [here](#Environment-Setup).
 
 ## About
 
@@ -39,3 +39,38 @@ The following are courses from which I will choose, pending discussions with aca
 - MATH-M 463 Intro to Probability Theory I (3 Credits)
 - MATH-T 321 Intuitive Topology (3 Credits)
 - MATH-T 336 Topics in Euclidean Geometry (3 Credits)
+
+# Tools and Resources
+
+Articles and resources about sundry topics you may need for interacting with my repository, but that you may not be familiar with yet, depending on your background.
+
+## Environment Setup
+Where possible, I will provide a containerized environment for any work that uses software, to abstract away the setup. To do this, I will primarily use Docker. Docker is a tool used frequently in software engineering for creating containers, which are similar to lightweight virtual machines, but make more efficient use of the resources of the underlying host machine. 
+- [Docker Overview](https://docs.docker.com/get-started/overview/)
+
+## Documentation Tools
+
+### LaTeX
+
+   > LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
+   Source: [https://www.latex-project.org/](https://www.latex-project.org/)
+
+- [Overleaf LaTeX Book Gallery](https://www.overleaf.com/gallery/tagged/book)
+- [Dr. Trefor Bazett - Intro to LaTeX Part I](https://www.youtube.com/watch?v=Jp0lPj2-DQA)
+- [Dr. Trefor Bazett - Intro to LaTeX Part II](https://www.youtube.com/watch?v=-HvRvBjBAvg)
+- [dspinellis/latex-advice](https://github.com/dspinellis/latex-advice)
+- [Compiling LaTeX Locally on macOS with VS Code and Git](https://jrwang.ca/2020/01/13/latex-vscode-git/)
+
+You can find a summary of my LaTeX setup here:
+- [jllovet LaTeX Setup](https://github.com/jllovet/iue-bs-math/000-setup/README.md)
+
+### MarkDown
+
+- [Markdown](https://daringfireball.net/projects/markdown/)
+- [Markdown (Github's flavor)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Dillinger (An Online Markdown Previewer)](https://dillinger.io/)
+
+## Software Engineering Tools
+- [Git](https://git-scm.com/)
+- [Docker](https://docs.docker.com/get-started/overview/)
+- [Visual Studio Code](https://code.visualstudio.com/)
