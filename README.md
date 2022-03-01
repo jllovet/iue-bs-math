@@ -7,7 +7,7 @@ Here you will find my notebooks, papers, code and other work towards the IUE B.S
 
 ## About
 
-- [IUE - Bachelors of Science in Mathematics](https://www.iue.edu/online/degrees-certificates/bachelor-of-science-mathematics.html)
+[IUE - Bachelors of Science in Mathematics](https://www.iue.edu/online/degrees-certificates/bachelor-of-science-mathematics.html)
 
 ### Core Courses
 
