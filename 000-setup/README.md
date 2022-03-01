@@ -15,7 +15,7 @@ docker image pull blang/latex
 Add the following to VSCode's settings.json:
 ```JSON
     "latex-workshop.docker.enabled": true,
-    "latex-workshop.latex.outDir": "./out",
+    "latex-workshop.latex.outDir": "./texout",
     "latex-workshop.synctex.afterBuild.enabled": true,
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.docker.image.latex": "blang/latex",
