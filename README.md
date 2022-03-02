@@ -63,7 +63,7 @@ This document is in Markdown!
 - [Markdown (Github's flavor)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Dillinger (An Online Markdown Previewer)](https://dillinger.io/)
 
-### LaTeX
+## LaTeX
 
    > LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
    Source: [https://www.latex-project.org/](https://www.latex-project.org/)
