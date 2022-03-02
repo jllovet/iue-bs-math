@@ -96,9 +96,11 @@ amsrefs is a LATEX package for preparing bibliography or reference lists.
 - [User’s Guide to the amsrefs Package](http://www.bakoma-tex.com/doc/latex/amsrefs/amsrdoc.pdf)
 - [American Mathematical Society - TeX Resources](http://www.ams.org/publications/authors/tex/tex)
 
-- [Markdown](https://daringfireball.net/projects/markdown/)
-- [Markdown (Github's flavor)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Dillinger (An Online Markdown Previewer)](https://dillinger.io/)
+#### MathSciNet
+MathSciNet is a database of known mathematics and science journals provided by the American Mathematical 
+Society. It is available by subscription only.
+
+- [mathscinet](https://mathscinet.ams.org/mathscinet)
 
 ## Software Engineering Tools
 - [Git](https://git-scm.com/)
