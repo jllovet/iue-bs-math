@@ -83,7 +83,18 @@ This document is in Markdown!
 You can find a summary of my LaTeX setup here:
 - [jllovet LaTeX Setup](https://github.com/jllovet/iue-bs-math/000-setup/README.md)
 
-### MarkDown
+## Citations and Bibliographies
+
+### Discussions
+
+- [Bibliographies - Stylistic conventions for bibliographies in mathematical writing](https://faculty.math.illinois.edu/~hildebr/tex/tips-bibliographies.html)
+- [Wikibooks - LaTeX Bibliography Management](https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management)
+
+### Tools and Packages
+#### amsrefs
+amsrefs is a LATEX package for preparing bibliography or reference lists.
+- [User’s Guide to the amsrefs Package](http://www.bakoma-tex.com/doc/latex/amsrefs/amsrdoc.pdf)
+- [American Mathematical Society - TeX Resources](http://www.ams.org/publications/authors/tex/tex)
 
 - [Markdown](https://daringfireball.net/projects/markdown/)
 - [Markdown (Github's flavor)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
