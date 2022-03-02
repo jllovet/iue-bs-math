@@ -8,6 +8,7 @@ Here you will find my notebooks, papers, code and other work towards the IUE B.S
 If you'd like to help support my studies and projects like this repo, I'd be delighted if you bought me a coffee.
 
 <a href="https://www.buymeacoffee.com/jllovet"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=jllovet&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 ## About
 
 [IUE - Bachelors of Science in Mathematics](https://www.iue.edu/online/degrees-certificates/bachelor-of-science-mathematics.html)
