@@ -102,7 +102,7 @@ Society. It is available by subscription only.
 
 - [mathscinet](https://mathscinet.ams.org/mathscinet)
 
-## Software Engineering Tools
+## Software Engineering
 - [Git](https://git-scm.com/)
 - [Docker](https://docs.docker.com/get-started/overview/)
 - [Visual Studio Code](https://code.visualstudio.com/)
