@@ -49,7 +49,15 @@ Articles and resources about sundry topics you may need for interacting with my 
 Where possible, I will provide a containerized environment for any work that uses software, to abstract away the setup. To do this, I will primarily use Docker. Docker is a tool used frequently in software engineering for creating containers, which are similar to lightweight virtual machines, but make more efficient use of the resources of the underlying host machine. 
 - [Docker Overview](https://docs.docker.com/get-started/overview/)
 
-## Documentation Tools
+## MarkDown
+
+This document is in Markdown!
+
+   > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+   Source: [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
+
+- [Markdown (Github's flavor)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Dillinger (An Online Markdown Previewer)](https://dillinger.io/)
 
 ### LaTeX
 
