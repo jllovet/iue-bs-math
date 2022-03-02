@@ -41,6 +41,7 @@ The following are courses from which I will choose, pending discussions with aca
 - MATH-T 336 Topics in Euclidean Geometry (3 Credits)
 
 # Tools and Resources
+---
 
 Articles and resources about sundry topics you may need for interacting with my repository, but that you may not be familiar with yet, depending on your background.
 
