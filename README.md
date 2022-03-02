@@ -64,9 +64,17 @@ This document is in Markdown!
    > LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
    Source: [https://www.latex-project.org/](https://www.latex-project.org/)
 
+### Books on LaTeX
+
 - [Books on LaTeX](https://www.latex-project.org/help/books/)
 - [LaTeX in 157 Minutes](https://www.amazon.com/Latex-157-minutes-Short-Introduction/dp/9881443628)
+
+### Examples
+
 - [Overleaf LaTeX Book Gallery](https://www.overleaf.com/gallery/tagged/book)
+
+### Discussions and Tutorials
+
 - [Dr. Trefor Bazett - Intro to LaTeX Part I](https://www.youtube.com/watch?v=Jp0lPj2-DQA)
 - [Dr. Trefor Bazett - Intro to LaTeX Part II](https://www.youtube.com/watch?v=-HvRvBjBAvg)
 - [dspinellis/latex-advice](https://github.com/dspinellis/latex-advice)
