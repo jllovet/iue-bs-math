@@ -4,3 +4,12 @@
 **/texout/*.log
 **/texout/*.pdf
 **/texout/*.synctex.gz
+**/texout/*.bbl
+**/texout/*.bcf
+**/texout/*.blg
+**/texout/*.run.xml
+**/texout/*.xdv
+**/missfont.log
+
+# System Files
+**.DS_Store
