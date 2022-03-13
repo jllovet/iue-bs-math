@@ -95,6 +95,13 @@ You can find a summary of my LaTeX setup here:
 - [Wikibooks - LaTeX Bibliography Management](https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management)
 
 ### Tools and Packages
+
+#### biblatex and biber
+   > The biblatex package is becoming the definitive citation management tool for LaTeX users. Biblatex provides a powerful and flexible macro interface for authors of citation styles.
+   Biblatex's own data backend processor, biber, allows biblatex to offer [a lot of] features.
+   Source: [http://biblatex-biber.sourceforge.net/](http://biblatex-biber.sourceforge.net/)
+
+- If you're interested, you should read [this article on CICD for LaTeX](https://ljvmiranda921.github.io/notebook/2018/04/23/postmortem-shift-to-docker/), which deals with these packages.
 #### amsrefs
 amsrefs is a LATEX package for preparing bibliography or reference lists.
 - [User’s Guide to the amsrefs Package](http://www.bakoma-tex.com/doc/latex/amsrefs/amsrdoc.pdf)
