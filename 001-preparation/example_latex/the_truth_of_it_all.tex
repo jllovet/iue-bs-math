@@ -1,0 +1,59 @@
+\documentclass{article}
+
+\usepackage{parskip}
+
+\usepackage{fontspec}
+\setmainfont{Gentium Plus}
+\newfontfamily\greekfont[Script=Greek]{Gentium Plus}
+\newfontfamily\greekfontsf[Script=Greek]{Gentium Plus}
+
+\usepackage{polyglossia}
+\usepackage{csquotes}
+\setdefaultlanguage{english}
+\setotherlanguage[variant=ancient]{greek}
+
+\usepackage[backend=biber, bibencoding=utf8]{biblatex}
+\addbibresource{bibliography.bib}
+
+\title{A Sample Article Illustrating How To Use Bibliographies}
+\author{Jonathan Llovet}
+\date{}
+
+\begin{document}
+\maketitle
+
+I am going to be reading a Calculus textbook in school by \textcite{briggsCalculusEarlyTranscendentals2019}.
+
+Motivated by my coming courses in Calculus,
+recently in my research at the intersection of mathematics and philosophy,
+I have been studying the infinite.
+
+In particular, I'm reading \textit{Everything and More} by \textcite{wallaceEverythingMoreCompact2010}
+and \textit{Contributions to the Founding of the Theory of Transfinite Numbers}
+(\textcite{cantorContributionsFoundingTheory1955}, \textcite{cantorGesammelteAbhandlungenMathematischen2013}).
+Additionally, in a study group with one of my friends,
+I am revisiting Leibniz's \textit{Monadologie} (\textcite{leibnizMonadologieFranzosischDeutsch2017}).
+
+To illustate that polytonic Ancient Greek is supported well, here are the opening lines of the Iliad. \textcite{homereHomeriOpera1920}
+
+\begin{quote}
+    \begin{greek}[variant=ancient]
+        μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\\
+        οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,\\
+        πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν\\
+        ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν \hfill 5\\
+        οἰωνοῖσί τε πᾶσι, Διὸς δ᾽ ἐτελείετο βουλή,\\
+        ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε\\
+        Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.\\
+    \end{greek}
+\end{quote}
+
+Here is an equation.
+
+\begin{equation}
+    f(x) = \sum_{n = 1}^{\infty} \frac{a}{x} + 2x - 1
+\end{equation}
+
+\printbibliography
+
+\end{document}

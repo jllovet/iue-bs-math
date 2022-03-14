@@ -42,14 +42,19 @@ This can either be configured for the entire workspace or for individual project
 └── a-book-to-read
     ├── .vscode
     │   └── settings.json
-    └── 001-ch1
-        ├── texout
-        │   ├── .keep
-        │   ├── my_article.aux
-        │   ├── my_article.fdb_latexmk
-        │   ├── my_article.fls
-        │   ├── my_article.log
-        │   ├── my_article.pdf
-        │   └── my_article.synctex.gz
-        └── my_article.tex
+    ├── bibliography.bib
+    ├── texout
+    │   ├── .keep
+    │   ├── my_article.aux
+    │   ├── my_article.bbl
+    │   ├── my_article.bcf
+    │   ├── my_article.blg
+    │   ├── my_article.fdb_latexmk
+    │   ├── my_article.fls
+    │   ├── my_article.log
+    │   ├── my_article.pdf
+    │   ├── my_article.run.xml
+    │   ├── my_article.synctex.gz
+    │   └── my_article.xdv
+    └── my_article.tex
 ```
