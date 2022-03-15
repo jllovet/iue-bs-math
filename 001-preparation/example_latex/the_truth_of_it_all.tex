@@ -1,6 +1,8 @@
 \documentclass{article}
 
 \usepackage{parskip}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 \usepackage{fontspec}
 \setmainfont{Gentium Plus}
@@ -15,7 +17,7 @@
 \usepackage[backend=biber, bibencoding=utf8]{biblatex}
 \addbibresource{bibliography.bib}
 
-\title{A Sample Article Illustrating How To Use Bibliographies}
+\title{A Sample Article Illustrating the Use of Bibliographies, UTF8, and Embedded Images}
 \author{Jonathan Llovet}
 \date{}
 
@@ -54,6 +56,33 @@ Here is an equation.
     f(x) = \sum_{n = 1}^{\infty} \frac{a}{x} + 2x - 1
 \end{equation}
 
+\newpage
+\begin{figure}[t]
+    \includegraphics[width=\textwidth]{example_flow.pdf}
+    \centering
+    \caption{System diagram generated with the Python package \textit{diagrams} based on an example from \textcite{senCreateNeatTechnical2022}.}
+    \label{fig:system1}
+\end{figure}
+
+The \textit{diagrams} package is available on Github.
+It is an extension of the graphing tool graphviz, which creates diagrams from plain-text definitions.
+
+\begin{quote}
+    Diagrams lets you draw the cloud system architecture in Python code.
+    It was born for prototyping a new system architecture without any design tools. You can also describe or visualize the existing system architecture as well.
+    Diagram as Code allows you to track the architecture diagram changes in any version control system.
+
+    \textcite{DiagramsDiagramCode}
+\end{quote}
+
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{clusters.pdf}
+    \centering
+    \caption{Another diagram that shows the use of clusters in the \textit{diagrams} package. \textcite{ClustersDiagrams}}
+    \label{fig:clusters}
+\end{figure}
+
+\newpage
 \printbibliography
 
 \end{document}
