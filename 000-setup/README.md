@@ -58,3 +58,21 @@ This can either be configured for the entire workspace or for individual project
     │   └── my_article.xdv
     └── my_article.tex
 ```
+
+## Setup for Diagrams
+
+The package [diagrams](https://diagrams.mingrammer.com/) allows you to define elegant diagrams using python. As with LaTeX, I provide a docker image (jllovet/diagrams) in this repository to make it easier to use. You can retrieve this image from Docker Hub or build it yourself.
+
+```SHELL
+docker image pull jllovet/diagrams
+```
+
+There is a bash script to make it easier to run the python programs defined for creating diagrams. You can find it at [diagram](./diagrams/diagram). I recommend you add the path to the file to your PATH if you plan on using it frequently. It takes a single argument specifying the name of the python script that you want to run.
+
+Assuming the script `diagram` is available on your PATH:
+
+```SHELL
+diagram example_flow.py
+```
+
+This will run the python script inside of a container defined by the image `jllovet/diagrams`, which has the python and `graphviz` dependencies required to run successfully. The docker container will mount a volume to the directory that you are currently in. Docker will use this volume to export the file that is created by the script using `diagrams` package.

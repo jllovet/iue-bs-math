@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run --rm -v $(pwd):/opt -i jllovet/diagrams $1
