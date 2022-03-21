@@ -1,4 +1,4 @@
-# Indiana University East Bachelors of Science in Mathematics
+# Indiana University East - Bachelors of Science in Mathematics 🧮
 ---
 
 Here you will find my notebooks, papers, code and other work towards the IUE B.S. in Mathematics. Sprinkled among these attempts at clear thinking are resources and reflections you may find helpful about mathematics, software, and philosophy.
