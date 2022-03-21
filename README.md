@@ -118,11 +118,6 @@ Society. It is available by subscription only.
 
 - [mathscinet](https://mathscinet.ams.org/mathscinet)
 
-## Software Engineering
-- [Git](https://git-scm.com/)
-- [Docker](https://docs.docker.com/get-started/overview/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
 ## Knowledge Management System ፨ 👨🏻‍💻 📄
 I'm trying out [Obsidian](https://obsidian.md/) to manage a knowledge graph for myself with Markdown and will be storing in this repository. Running notes will be in Markdown with mathematical sketches in inline LaTeX and embedded diagrams generated from other tools. Since Markdown is plain-text, this knowledge graph will be maintainable through git, like the rest of the project. It will be consumable through Obsidian or [Foam](https://foambubble.github.io/foam/) (one of its VSCode-plugin competitors).
 
@@ -138,3 +133,8 @@ I'm trying out [Obsidian](https://obsidian.md/) to manage a knowledge graph for 
 
 ### Standalone Tools
 - [Graphviz](https://www.graphviz.org/)
+
+## Software Engineering
+- [Git](https://git-scm.com/)
+- [Docker](https://docs.docker.com/get-started/overview/)
+- [Visual Studio Code](https://code.visualstudio.com/)
