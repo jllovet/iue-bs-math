@@ -11,6 +11,8 @@
 **/texout/*.xdv
 **/missfont.log
 
+.obsidian
+
 # System Files
 **.DS_Store
 
