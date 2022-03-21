@@ -96,6 +96,11 @@ You can find a summary of my LaTeX setup here:
 
 ### Tools and Packages
 
+#### Zotero
+   > Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.
+   Source: [https://www.zotero.org/](https://www.zotero.org/)
+
+- I use Zotero to generate .bib files for myself to use in my LaTeX documents. See below on Biblatex.
 #### biblatex and biber
    > The biblatex package is becoming the definitive citation management tool for LaTeX users. Biblatex provides a powerful and flexible macro interface for authors of citation styles.
    Biblatex's own data backend processor, biber, allows biblatex to offer [a lot of] features.
