@@ -19,6 +19,7 @@
 
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{amssymb}
 
 \numberwithin{equation}{section}
 
@@ -49,10 +50,10 @@ The first set of numbers they discuss are the positive integers.
 \subsection{Laws Applicable to Positive Integers}
 
 \begin{align}
-    &(a+b)+c = a+(b+c) &&\text{Associative Law of Addition}\\
-    &(ab)c = a(bc) &&\text{Associative Law of Multiplication}\\
-    &a+b = b+a &&\text{Commutative Law of Addition}\\
-    &ab = ba &&\text{Commutative Law of Multiplication}\\
+    &(a+b)+c = a+(b+c) &&\text{Associative Law of Addition}\label{E:AssociativeLawofAddition}\\
+    &(ab)c = a(bc) &&\text{Associative Law of Multiplication}\label{E:AssociativeLawofMultiplication}\\
+    &a+b = b+a &&\text{Commutative Law of Addition}\label{E:CommutativeLawofAddition}\\
+    &ab = ba &&\text{Commutative Law of Multiplication}\label{E:CommutativeLawofMultiplication}\\
     &a(b+c) = ab+ac &&\text{Distributive Law}\label{E:DistributiveLaw}\\
     &(b+c)a = ba+ca &&\text{Distributive Law by Comm. Law of Mult.}\label{E:DistributiveLawByCommLawofMult}
 \end{align}
@@ -116,23 +117,26 @@ They then define factoring and expanding with some examples.
 \begin{subequations}
     Expand:
     \begin{align}%a
-        &(x+y)(x^2 - xy + y^2)&&\\
-        &&=\text{TODO: Write solution}\notag\\
+        (x+y)(x^2 - xy + y^2)&\\
+        &=x(x^2 - xy + y^2) + y(x^2 - xy + y^2)&\text{by Distributive Law \eqref{E:DistributiveLaw}}\notag\\
+        &=x^3 - x^2y + xy^2 + x^2y - xy^2 + y^3&\text{by Distributive Law \eqref{E:DistributiveLaw}}\notag\\
+        &=x^3 + y^3&\text{by cancelling like terms}\notag\\
+        &\text{}&\text{QED\:}\blacksquare\notag\\
         %b
-        &(x-y)(x-2)(x+2)&&\\
-        &&=\text{TODO: Write solution}\notag\\
+        (x-y)(x-2)(x+2)\\
+        &=\text{TODO: Write solution}\notag\\
         %c
-        &(x-2y)^3&&\\
-        &&=\text{TODO: Write solution}\notag\\
+        (x-2y)^3\\
+        &=\text{TODO: Write solution}\notag\\
         %d
-        &(.1x+.2y)^2&&\\
-        &&=\text{TODO: Write solution}\notag\\
+        (.1x+.2y)^2\\
+        &=\text{TODO: Write solution}\notag\\
         %e
-        &(2x+3y)(3x-2y)&&\\
-        &&=\text{TODO: Write solution}\notag\\
+        (2x+3y)(3x-2y)\\
+        &=\text{TODO: Write solution}\notag\\
         %f
-        &(x-y+z)(x-y-z)&&\\
-        &&=\text{TODO: Write solution}\notag
+        (x-y+z)(x-y-z)\\
+        &=\text{TODO: Write solution}\notag
     \end{align}
         
 \end{subequations}
