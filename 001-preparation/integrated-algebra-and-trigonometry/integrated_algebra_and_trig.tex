@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[leqno]{article}
 
 \usepackage{parskip}
 \usepackage{graphicx}
@@ -17,6 +17,9 @@
 \usepackage[backend=biber, bibencoding=utf8]{biblatex}
 \addbibresource{bibliography.bib}
 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
 \title{Notes on Fisher and Ziebur's\\\textit{Integrated Algebra and Trigonometry}}
 \author{Jonathan Llovet}
 \date{\today}
@@ -34,11 +37,50 @@ to help me practice presenting my work in \LaTeX.
 \newpage
 \section{The System of Real Numbers}
 
-To introduce algebra, \textcite{fisherIntegratedAlgebraTrigonometry1962} introduce the system of real numbers.
-To do so, they presume a working familiarity
+To get things going with their presentation of algebra,
+\textcite{fisherIntegratedAlgebraTrigonometry1962}
+introduce the system of real numbers.
+In their discussion, they explicitly presume a working familiarity
 with the rules of arithmetic and basic number systems.
 The first set of numbers they discuss are the positive integers.
 
+\subsection{Laws Applicable to Positive Integers}
+
+\begin{align}
+    &(a+b)+c = a+(b+c) &&\text{Associative Law of Addition}\\
+    &(ab)c = a(bc) &&\text{Associative Law of Multiplication}\\
+    &a+b = b+a &&\text{Commutative Law of Addition}\\
+    &ab = ba &&\text{Commutative Law of Multiplication}\\
+    &a(b+c) = ab+ac &&\text{Distributive Law}\\
+    &(b+c)a = ba+ca &&\text{Distributive Law by Comm. Law of Mult.}
+\end{align}
+
+In addition to these, Fisher and Ziebur point out the following interesting pair of properties.
+For any two positive integers \(a, b \)
+\begin{align}
+    &\text{there is another integer \(c\) such that} &&a+b = c\\
+    &\text{there is not always an integer \(d\) such that} &&a-b = d
+\end{align}
+
+Rephrasing these in terms of sets:
+\begin{align}
+    &\forall \, a, b \, \{a, b \in \mathbb{Z} \,|\, a+b \in \mathbb{Z}\}\\
+    &\exists \, a, b \, \{a, b \in \mathbb{Z} \,|\, a-b \not\in \mathbb{Z}\}
+\end{align}
+
+Start interpolation.
+
+As an aside, \textcite{fisherIntegratedAlgebraTrigonometry1962} claim the following:
+\begin{quote}
+    It can be shown that the rules of arithmetic
+    for integeres are the only ones that preserve
+    the associative, commutative, and distributive
+    laws.
+\end{quote}
+
+I'm not convinced of this just yet, but I suspect that some inquiries into abstract algebra will help me see whether this is the case.
+
+End interpolation.
 
 
 \newpage
