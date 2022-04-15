@@ -9,8 +9,8 @@
 **/texout/*.blg
 **/texout/*.run.xml
 **/texout/*.xdv
+**/texout/*.synctex(busy)
 **/missfont.log
-
 **/.obsidian
 
 # System Files
