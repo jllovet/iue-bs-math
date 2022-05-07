@@ -1,0 +1,11 @@
+version: "3"
+services:
+  math_notebook:
+    image: jllovet/math_notebook
+    container_name: "math_notebook"
+    user: "jovyan"
+    build: "."
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./work:/home/jovyan/work"
