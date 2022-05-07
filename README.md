@@ -71,6 +71,9 @@ This document is in Markdown!
 ### Books on LaTeX
 
 - [Books on LaTeX](https://www.latex-project.org/help/books/)
+- [Practical LaTeX](https://www.amazon.com/Practical-LaTeX-George-Gr%C3%A4tzer/dp/331906424X)
+- [Math into LaTeX](https://www.amazon.com/Math-Into-LaTeX-George-Gr%C3%A4tzer/dp/0817641319)
+- [More Math into LaTeX](https://www.amazon.com/More-Math-Into-LaTeX-4th/dp/0387322892)
 - [LaTeX in 157 Minutes](https://www.amazon.com/Latex-157-minutes-Short-Introduction/dp/9881443628)
 
 ### Examples
