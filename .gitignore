@@ -1,3 +1,5 @@
+# LaTeX
+
 **/texout/*.aux
 **/texout/*.fdb_latexmk
 **/texout/*.fls
