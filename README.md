@@ -126,6 +126,8 @@ I'm trying out [Obsidian](https://obsidian.md/) to manage a knowledge graph for 
 ## Visualizations
 
 ### Python Packages
+- [sympy](https://github.com/sympy/sympy)
+- [handcalcs](https://github.com/connorferster/handcalcs)
 - [diagrams](https://diagrams.mingrammer.com/)
 - [matplotlib](https://matplotlib.org/)
 - [plotly](https://plotly.com/)
