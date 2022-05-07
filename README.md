@@ -123,7 +123,7 @@ I'm trying out [Obsidian](https://obsidian.md/) to manage a knowledge graph for 
 
 - [Citations](https://www.marianamontes.me/post/obsidian-and-zotero/) plugin for Obsidian To Use .bib files from [Zotero](https://www.zotero.org/) to import bibliographies
 
-## Visualizations
+## Visualizations and Math Tools
 
 ### Python Packages
 - [sympy](https://github.com/sympy/sympy)
