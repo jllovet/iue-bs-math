@@ -1,4 +1,4 @@
-# Jupyter - Math Notebooks
+# Jupyter - Math Notebook
 
 ## About
 Here is a docker image built on the work of the Jupyter team to provide the ability to do work with symbolic mathematics programmatically.
