@@ -19,7 +19,7 @@ Make sure that you have Docker installed. If you need information:
 
 ### Run Notebook Container
 
-Both of the options below run a container based on the image jllovet/math-notebook (defined here), with a web server hosting the jupyter notebook on port 3000 and a volume mounted between the current directory on the host 
+The examples below run a container based on the image jllovet/math-notebook, with a web server hosting the jupyter notebook on port 3000 and a volume mounted between the ./work directory on the host and a similarly named directory in the container.
 
 ```SHELL
 docker run -it -p 3000:3000 -v "${PWD}/work":/home/jovyan/work jllovet/math-notebook
