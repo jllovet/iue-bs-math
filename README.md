@@ -128,6 +128,15 @@ I'm trying out [Obsidian](https://obsidian.md/) to manage a knowledge graph for 
 
 ## Visualizations and Math Tools
 
+### Jupyter
+
+Jupyter provides interactive coding notebooks that make it easy to prototype, create visualizations and interactive presentations, and to make the software used in research more transparent. Jupyter notebooks are used widely both in industry and in academia.
+I will use Python-based Jupyter notebooks primarily, but other programming languages are supported. You can find out more about the project here.
+
+- [Jupyter](https://jupyter.org/)
+
+I have defined a docker image that builds on the [Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) that are maintained by the Jupyter Team. That image can be found in Docker Hub under [jllovet/math-notebook](https://hub.docker.com/r/jllovet/math-notebook), and the definition can be found in this repository under [000-setup/jupyter](https://github.com/jllovet/iue-bs-math/tree/main/000-setup/jupyter), where you can also find usage instructions.
+
 ### Python Packages
 - [sympy](https://github.com/sympy/sympy)
 - [handcalcs](https://github.com/connorferster/handcalcs)
