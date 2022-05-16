@@ -187,6 +187,7 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 
 ### Algebra
 - [College Algebra - Full Course](https://www.youtube.com/watch?v=LwCRRUa8yTU)
+- [Completing the Square](https://www.youtube.com/watch?v=C206SNAXDGE)
 ### Precalculus
 - [Precalculus Course](https://www.youtube.com/watch?v=eI4an8aSsgw)
 - [Precalculus Introduction, Basic Overview, Graphing Parent Functions, Transformations, Domain & Range](https://www.youtube.com/watch?v=JrWJnwCMlP0)
