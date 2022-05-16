@@ -174,6 +174,7 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 ### Channels
 - [3b1b](https://www.youtube.com/c/3blue1brown)
 - [Khan Academy](https://www.youtube.com/c/khanacademy)
+- [The Organic Chemistry Tutor](https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA)
 - [The Bright Side of Mathematics](https://www.youtube.com/c/brightsideofmaths)
 - [Numberphile](https://www.youtube.com/c/numberphile)
 - [Prof. Redden](https://www.youtube.com/c/JohnRedden/playlists)
