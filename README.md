@@ -152,6 +152,9 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
    - [SciPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=jmX4FOUEfgU)
 
 - [sympy](https://github.com/sympy/sympy)
+
+   - [SymPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=1yBPEPhq54M)
+
 - [handcalcs](https://github.com/connorferster/handcalcs)
 - [plotly](https://plotly.com/)
 - [diagrams](https://diagrams.mingrammer.com/)
