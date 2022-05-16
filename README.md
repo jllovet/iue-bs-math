@@ -1,5 +1,4 @@
 # Indiana University East - Bachelors of Science in Mathematics 🧮
----
 
 Here you will find my notebooks, papers, code and other work towards the IUE B.S. in Mathematics. Sprinkled among these attempts at clear thinking are resources and reflections you may find helpful about mathematics, software, and philosophy.
 
@@ -9,9 +8,10 @@ If you'd like to help support my studies and projects like this repo, I'd be del
 
 <a href="https://www.buymeacoffee.com/jllovet"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=jllovet&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
-# Contents
-- [Contents](#contents)
-  - [About](#about)
+## Contents
+- [Indiana University East - Bachelors of Science in Mathematics 🧮](#indiana-university-east---bachelors-of-science-in-mathematics-)
+  - [Contents](#contents)
+- [About](#about)
     - [Core Courses](#core-courses)
     - [Electives](#electives)
 - [Tools and Resources](#tools-and-resources)
@@ -43,7 +43,7 @@ If you'd like to help support my studies and projects like this repo, I'd be del
     - [Precalculus](#precalculus)
     - [Calculus](#calculus)
 
-## About
+# About
 
 [IUE - Bachelors of Science in Mathematics](https://www.iue.edu/online/degrees-certificates/bachelor-of-science-mathematics.html)
 
@@ -80,7 +80,6 @@ The following are courses from which I will choose, pending discussions with aca
 
 # Tools and Resources
 
----
 
 Articles and resources about sundry topics you may need for interacting with my repository, but that you may not be familiar with yet, depending on your background.
 
