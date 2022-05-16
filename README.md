@@ -142,6 +142,7 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
    
    - [NumPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=DcfYgePyedM)
    - [Numerical Computing With NumPy Tutorial | SciPy 2020 | Eric Olsen](https://www.youtube.com/watch?v=NwYt5FKBsGU&list=PLYx7XA2nY5Gde-6QO98KUJ9iL_WW4rgYf&index=3)
+   - [Complete Python NumPy Tutorial (Creating Arrays, Indexing, Math, Statistics, Reshaping)](https://www.youtube.com/watch?v=GB9ByFAIAH4)
 
 - [matplotlib](https://matplotlib.org/)
 
