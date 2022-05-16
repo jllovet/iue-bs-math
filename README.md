@@ -170,6 +170,7 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 - [Precalculus Introduction, Basic Overview, Graphing Parent Functions, Transformations, Domain & Range](https://www.youtube.com/watch?v=JrWJnwCMlP0)
 
 ### Calculus
+- [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 - [MIT OCW Youtube Playlist - Fall 2007](https://www.youtube.com/watch?v=7K1sB05pE0A&list=PL590CCC2BC5AF3BC1)
 - [Calculus 1 - Full College Course](https://www.youtube.com/watch?v=HfACrKJ_Y2w)
-- [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+- [Introductory Calculus: Oxford Mathematics 1st Year Student Lecture](https://www.youtube.com/watch?v=I3GWzXRectE)
