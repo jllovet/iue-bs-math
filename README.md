@@ -171,6 +171,10 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 
 ## Math Resources
 
+### Tools, Calculators, and Interactive Courses
+- [Geogebra](https://www.geogebra.org/calculator)
+- [Brilliant](https://brilliant.org/daily-problems/)
+
 ### Channels
 - [3b1b](https://www.youtube.com/c/3blue1brown)
 - [Khan Academy](https://www.youtube.com/c/khanacademy)
