@@ -152,3 +152,19 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 - [Git](https://git-scm.com/)
 - [Docker](https://docs.docker.com/get-started/overview/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+## Math Resources
+
+### Channels
+- [3b1b](https://www.youtube.com/c/3blue1brown)
+- [Numberphile](https://www.youtube.com/c/numberphile)
+- [Khan Academy](https://www.youtube.com/c/khanacademy)
+- [Prof. Redden](https://www.youtube.com/c/JohnRedden/playlists)
+### Fields of Mathematics
+- [The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
+
+### Chapters, Papers, etc.
+- [Algebra Review from Calculus: Early Transcendentals, Third Edition](https://media.pearsoncmg.com/aw/aw_briggs_calculus_et_3/online_pdf/bccalcet03_appendix_b.pdf)
+### Precalculus
+- [Precalculus Course](https://www.youtube.com/watch?v=eI4an8aSsgw)
+- [Precalculus Introduction, Basic Overview, Graphing Parent Functions, Transformations, Domain & Range](https://www.youtube.com/watch?v=JrWJnwCMlP0)
