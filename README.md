@@ -178,8 +178,9 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 - [Numberphile](https://www.youtube.com/c/numberphile)
 - [Prof. Redden](https://www.youtube.com/c/JohnRedden/playlists)
 - [Cowan Academy](https://www.youtube.com/c/CowanAcademy)
-### Fields of Mathematics
+### Fields of Mathematics and Self-Study Roadmaps
 - [The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
+- [How to self study pure math - a step-by-step guide](https://www.youtube.com/watch?v=byNaO_zn2fI)
 
 ### Chapters, Papers, etc.
 - [Algebra Review from Calculus: Early Transcendentals, Third Edition](https://media.pearsoncmg.com/aw/aw_briggs_calculus_et_3/online_pdf/bccalcet03_appendix_b.pdf)
