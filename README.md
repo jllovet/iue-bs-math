@@ -171,3 +171,5 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 
 ### Calculus
 - [MIT OCW Youtube Playlist - Fall 2007](https://www.youtube.com/watch?v=7K1sB05pE0A&list=PL590CCC2BC5AF3BC1)
+- [Calculus 1 - Full College Course](https://www.youtube.com/watch?v=HfACrKJ_Y2w)
+- [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
