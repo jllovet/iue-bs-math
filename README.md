@@ -138,11 +138,23 @@ I will use Python-based Jupyter notebooks primarily, but other programming langu
 I have defined a docker image that builds on the [Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) that are maintained by the Jupyter Team. That image can be found in Docker Hub under [jllovet/math-notebook](https://hub.docker.com/r/jllovet/math-notebook), and the definition can be found in this repository under [000-setup/jupyter](https://github.com/jllovet/iue-bs-math/tree/main/000-setup/jupyter), where you can also find usage instructions.
 
 ### Python Packages
+- [numpy](https://numpy.org/)
+   
+   - [NumPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=DcfYgePyedM)
+   - [Numerical Computing With NumPy Tutorial | SciPy 2020 | Eric Olsen](https://www.youtube.com/watch?v=NwYt5FKBsGU&list=PLYx7XA2nY5Gde-6QO98KUJ9iL_WW4rgYf&index=3)
+
+- [matplotlib](https://matplotlib.org/)
+
+   - [Matplotlib Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=cTJBJH8hacc)
+
+- [scipy](https://scipy.org/)
+
+   - [SciPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=jmX4FOUEfgU)
+
 - [sympy](https://github.com/sympy/sympy)
 - [handcalcs](https://github.com/connorferster/handcalcs)
-- [diagrams](https://diagrams.mingrammer.com/)
-- [matplotlib](https://matplotlib.org/)
 - [plotly](https://plotly.com/)
+- [diagrams](https://diagrams.mingrammer.com/)
 - [manim](https://www.manim.community/)
 
 ### Standalone Tools
