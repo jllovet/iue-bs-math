@@ -9,6 +9,40 @@ If you'd like to help support my studies and projects like this repo, I'd be del
 
 <a href="https://www.buymeacoffee.com/jllovet"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=jllovet&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
+# Contents
+- [Contents](#contents)
+  - [About](#about)
+    - [Core Courses](#core-courses)
+    - [Electives](#electives)
+- [Tools and Resources](#tools-and-resources)
+  - [Environment Setup](#environment-setup)
+  - [MarkDown](#markdown)
+  - [LaTeX](#latex)
+    - [Books on LaTeX](#books-on-latex)
+    - [Examples](#examples)
+    - [Discussions and Tutorials](#discussions-and-tutorials)
+  - [Citations and Bibliographies](#citations-and-bibliographies)
+    - [Discussions](#discussions)
+    - [Tools and Packages](#tools-and-packages)
+      - [Zotero](#zotero)
+      - [biblatex and biber](#biblatex-and-biber)
+      - [amsrefs](#amsrefs)
+      - [MathSciNet](#mathscinet)
+  - [Knowledge Management System ፨ 👨🏻‍💻 📄](#knowledge-management-system---)
+  - [Visualizations and Math Tools](#visualizations-and-math-tools)
+    - [Jupyter](#jupyter)
+    - [Python Packages](#python-packages)
+    - [Standalone Tools](#standalone-tools)
+  - [Software Engineering](#software-engineering)
+  - [Math Resources](#math-resources)
+    - [Tools, Calculators, and Interactive Courses](#tools-calculators-and-interactive-courses)
+    - [Channels](#channels)
+    - [Fields of Mathematics and Self-Study Roadmaps](#fields-of-mathematics-and-self-study-roadmaps)
+    - [Chapters, Papers, etc.](#chapters-papers-etc)
+    - [Algebra](#algebra)
+    - [Precalculus](#precalculus)
+    - [Calculus](#calculus)
+
 ## About
 
 [IUE - Bachelors of Science in Mathematics](https://www.iue.edu/online/degrees-certificates/bachelor-of-science-mathematics.html)
@@ -45,6 +79,7 @@ The following are courses from which I will choose, pending discussions with aca
 - MATH-T 336 Topics in Euclidean Geometry (3 Credits)
 
 # Tools and Resources
+
 ---
 
 Articles and resources about sundry topics you may need for interacting with my repository, but that you may not be familiar with yet, depending on your background.
