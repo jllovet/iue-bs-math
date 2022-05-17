@@ -2,6 +2,9 @@
 
 Here you will find my notebooks, papers, code and other work towards the IUE B.S. in Mathematics. Sprinkled among these attempts at clear thinking are resources and reflections you may find helpful about mathematics, software, and philosophy.
 
+   > La filosofia è scritta in questo grandissimo libro che continuamente ci sta aperto innanzi a gli occhi (io dico l'universo), ma non si può intendere se prima non s'impara a intender la lingua, e conoscer i caratteri, ne' quali è scritto. Egli è scritto in lingua matematica, e i caratteri son triangoli, cerchi, ed altre figure geometriche, senza i quali mezi è impossibile a intenderne umanamente parola; senza questi è un aggirarsi vanamente per un oscuro laberinto.
+      Galileo, Il Saggiatore
+
    >**Note:** Some of the projects in this repo will require some software dependencies. See [here](#Environment-Setup).
 
 If you'd like to help support my studies and projects like this repo, I'd be delighted if you bought me a coffee.
