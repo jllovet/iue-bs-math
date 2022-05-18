@@ -28,7 +28,7 @@
 \counterwithin*{equation}{subsection}
 
 \newcounter{homework_problem_counter}
-\newenvironment{homework}[1][~\arabic{homework_problem_counter}]
+\newenvironment{homework}[1][]
   {\refstepcounter{homework_problem_counter}\par#1\par\nobreak}
   {\par}
 
