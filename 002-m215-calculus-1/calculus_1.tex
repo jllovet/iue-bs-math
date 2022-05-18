@@ -22,7 +22,17 @@
 \usepackage{amssymb}
 \usepackage[printsolution=true]{exercises}
 
-\numberwithin{equation}{section}
+\usepackage{chngcntr}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+\newcounter{homework_problem_counter}
+\newenvironment{homework}[1][~\arabic{homework_problem_counter}]
+  {\refstepcounter{homework_problem_counter}\par#1\par\nobreak}
+  {\par}
+
+\counterwithin*{equation}{homework_problem_counter}
 
 \title{Notes on\\\textit{Calculus, Early Transcendentals}}
 \author{Jonathan Llovet}
