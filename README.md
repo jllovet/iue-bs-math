@@ -42,6 +42,7 @@ If you'd like to help support my studies and projects like this repo, I'd be del
     - [Channels](#channels)
     - [Fields of Mathematics and Self-Study Roadmaps](#fields-of-mathematics-and-self-study-roadmaps)
     - [Chapters, Papers, etc.](#chapters-papers-etc)
+    - [Geometry](#geometry)
     - [Algebra](#algebra)
     - [Precalculus](#precalculus)
     - [Calculus](#calculus)
@@ -229,6 +230,8 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 ### Chapters, Papers, etc.
 - [Algebra Review from Calculus: Early Transcendentals, Third Edition](https://media.pearsoncmg.com/aw/aw_briggs_calculus_et_3/online_pdf/bccalcet03_appendix_b.pdf)
 
+### Geometry
+- [Translations Reflections and Rotations - Geometric Transformations!](https://www.youtube.com/watch?v=GqHWdTLL8Qw)
 ### Algebra
 - [College Algebra - Full Course](https://www.youtube.com/watch?v=LwCRRUa8yTU)
 - [Completing the Square](https://www.youtube.com/watch?v=C206SNAXDGE)
