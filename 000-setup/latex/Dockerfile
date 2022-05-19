@@ -23,4 +23,7 @@ ln -s /usr/local/texlive/2017/texmf-dist/fonts/vf /usr/share/fonts/vf
 RUN apt-get update && \
     apt-get install fontconfig
 
+RUN apt update &&\
+    apt install -y python-pygments
+
 RUN fc-cache

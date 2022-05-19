@@ -30,6 +30,7 @@ Add the following to VSCode's settings.json:
             "-interaction=nonstopmode",
             "-file-line-error",
             "-output-directory=./texout",
+            "--shell-escape", // added arg to default
             "%DOC%"
         ]
     }]
