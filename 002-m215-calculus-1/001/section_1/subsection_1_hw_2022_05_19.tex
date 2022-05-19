@@ -1,0 +1,114 @@
+\begin{homework}
+    \newpage
+    \date{May 19, 2022}
+
+    \begin{exercise}
+        \textbf{Given:}
+        \begin{itemize}
+            \item The graph of $ y=x^2 $​
+        \end{itemize}
+
+        \textbf{Find:}
+        \begin{itemize}
+            \item The process for obtaining the graph ​$ 7(x+9)^2 + 2 $
+        \end{itemize}
+    \end{exercise}
+    \rule{\textwidth}{0.4pt}
+
+    \begin{solution}
+        We begin with the original graph $ y=x^2 $
+
+        \begin{tikzpicture}
+            \begin{axis}[standard,
+                width=10cm,
+                xtick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10},
+                ytick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10},
+                samples=1000,
+                xlabel={$x$},
+                ylabel={$y$},
+                xmin=-10,xmax=10,
+                ymin=-10,ymax=10
+            ]
+        
+            \addplot[line width=0.4mm, red, domain={-10:10}]{x^2};
+            \end{axis}
+        \end{tikzpicture}
+
+        Next, we shift the graph to the left by 9 units.
+        At this point, we have a graph of $ y=(x+9)^2 $.
+        Note the change in the units shown on the graph.
+        
+        \nopagebreak
+        
+        \begin{tikzpicture}
+            \begin{axis}[standard,
+                width=10cm,
+                xtick={-20, -18, -16, -14, -12, -10, -8, -6, -4, -2, 0, 2},
+                ytick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20},
+                samples=1000,
+                xlabel={$x$},
+                ylabel={$y$},
+                xmin=-20,xmax=2,
+                ymin=-10,ymax=10
+            ]
+        
+            \addplot[line width=0.4mm, red, domain={-20:2}]{(x+9)^2};
+            \end{axis}
+        \end{tikzpicture}
+
+        After shifting to the left, we scale the graph by a factor of 7.
+        Because of the shape of our graph, this results in a narrowing or stretching.
+        At this point, we have a graph of $ y=7(x+9)^2 $.
+        
+        \nopagebreak
+        
+        \begin{tikzpicture}
+            \begin{axis}[standard,
+                width=10cm,
+                xtick={-20, -18, -16, -14, -12, -10, -8, -6, -4, -2, 0, 2},
+                ytick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20},
+                samples=1000,
+                xlabel={$x$},
+                ylabel={$y$},
+                xmin=-20,xmax=2,
+                ymin=-10,ymax=10
+            ]
+        
+            \addplot[line width=0.4mm, red, domain={-20:2}]{7*(x+9)^2};
+            \end{axis}
+        \end{tikzpicture}
+
+        After scaling the graph, next we shift the graph up 2 units.
+        At this point, we have a graph of $ y=7(x+9)^2 + 2$.
+        
+        \nopagebreak
+
+        \begin{tikzpicture}
+            \begin{axis}[standard,
+                width=10cm,
+                xtick={-20, -18, -16, -14, -12, -10, -8, -6, -4, -2, 0, 2},
+                ytick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20},
+                samples=1000,
+                xlabel={$x$},
+                ylabel={$y$},
+                xmin=-20,xmax=2,
+                ymin=-10,ymax=10
+            ]
+        
+            \addplot[line width=0.4mm, red, domain={-20:2}]{7*(x+9)^2 + 2};
+            \end{axis}
+        \end{tikzpicture}
+
+        \fbox{\parbox{\textwidth}{
+            In summary, the transformations we have to make on the graph are:
+            \begin{itemize}
+                \item Shift to the left 9 units
+                \item Scale by a factor of 7
+                \item Shift up by 2 units
+            \end{itemize}
+            }
+        }
+        \nopagebreak
+        \hfill ANS $\square$
+    \end{solution}
+\end{homework}

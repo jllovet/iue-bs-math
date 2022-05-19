@@ -1,0 +1,59 @@
+\begin{homework}
+    \newpage
+    \date{May 18, 2022}
+
+    \begin{exercise}
+        \renewcommand{\theequation}{\arabic{equation}}
+        \textbf{Given:}
+        \begin{itemize}
+            \item $f(x) = 3x^2 - 7x + 2$
+        \end{itemize}
+
+        \textbf{Find:}
+        \begin{itemize}
+            \item Simplify the difference quotient $ \frac{f(x+h)-f(x)}{h}$ for $f(x)$.
+        \end{itemize}
+    \end{exercise}
+    \rule{\textwidth}{0.4pt}
+
+    \begin{solution}
+        In order to simplify the difference quotient,
+        we must first find $f(x+h)$,
+        so that we can substitute it in.
+
+        \begin{align}
+            f(x) &= 3x^2 - 7x + 2\\
+            f(x+h) &= 3(x+h)^2 - 7(x+h) + 2
+                &&\text{(by substitution)} \notag\\
+            &= 3(x^2 + 2xh + h^2) - 7(x+h) + 2
+                &&\text{(by expansion)} \notag\\
+            &= 3x^2 + 6xh + 3h^2 - 7x - 7h + 2
+                &&\text{(by distribution)} \notag\\
+            &= 3x^2 + 6xh + 3h^2 - 7x - 7h + 2
+                &&\text{(by distribution)}
+        \end{align}
+
+        Now that we have a value for $f(x+h)$,
+        we can substitute the value for it into the difference quotient.
+
+        \begin{align}
+            q &= \frac{f(x+h)-f(x)}{h} \notag\\
+            &= \frac{( 3x^2 + 6xh + 3h^2 - 7x - 7h + 2 ) - (3x^2 - 7x + 2)}{h}\notag
+                &&\text{(by substitution)} \notag\\
+            &= \frac{ 6xh + 3h^2 - 7h }{h}\notag
+                &&\text{(by simplification)} \notag\\
+            &= \frac{ h(6x + 3h - 7) }{h}\notag
+                &&\text{(by factoring)} \notag\\
+            &= 6x + 3h - 7 \notag
+                &&\text{(by simplification)} \notag
+        \end{align}
+
+        \fbox{\parbox{\textwidth}{
+            $\therefore$ The difference quotient for $f(x)$ is $6x + 3h - 7$
+            }
+        }
+        \nopagebreak
+        \hfill ANS $\square$
+    \end{solution}
+
+\end{homework}

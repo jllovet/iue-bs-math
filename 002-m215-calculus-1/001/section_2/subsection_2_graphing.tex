@@ -1,0 +1,18 @@
+\subsection{Graphics}
+    In order to be able to work with graphing images, I am using pgfplots. Here is an example.
+
+    \begin{tikzpicture}
+        \begin{axis}[standard,
+            width=10cm,
+            xtick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10},
+            ytick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10},
+            samples=1000,
+            xlabel={$x$},
+            ylabel={$y$},
+            xmin=-10,xmax=10,
+            ymin=-10,ymax=10
+        ]
+
+            \addplot[line width=0.4mm, red, name path=F,domain={-10:10}]{x^2};
+        \end{axis}
+    \end{tikzpicture}
