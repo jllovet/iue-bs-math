@@ -1,0 +1,35 @@
+\subsection{Synthetic Division}
+    Synthetic division is used to determine whether a zero of a function
+    is a factor of a polynomial.
+    Core algorithm:
+    \begin{itemize}
+        \item Start with the leading coefficient.
+        \item Multiply the zero by that coefficient to produce an intermediate term. 
+        \item Add that intermediate term to the next coefficient to produce a remainder.
+        \item Multiply the zero by that remainder to produce the next intermediate term.
+        \item Repeat until the final coefficient is reached.
+        \item If the final remainder $= 0$, then the zero is a factor of the polynomial.
+        \item If the final remainder $\neq 0$, then the zero is not a factor of the polynomial.
+    \end{itemize}
+    \newpage
+    \inputminted[linenos, breaklines]{python}{001/synthetic_division.py}
+    \newpage
+
+\subsection{Graphics}
+    In order to be able to work with graphing images, I am using pgfplots. Here is an example.
+
+    \begin{tikzpicture}
+        \begin{axis}[standard,
+            width=10cm,
+            xtick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10},
+            ytick={-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10},
+            samples=1000,
+            xlabel={$x$},
+            ylabel={$y$},
+            xmin=-10,xmax=10,
+            ymin=-10,ymax=10
+        ]
+
+            \addplot[line width=0.4mm, red, name path=F,domain={-10:10}]{x^2};
+        \end{axis}
+    \end{tikzpicture}
