@@ -1,29 +1,36 @@
 \documentclass[leqno, 11pt]{report}
 
+% Formatting and graphics
 \usepackage{parskip}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
 
+% Fonts
 \usepackage{fontspec}
 % \setmainfont{Gentium Plus}
 \newfontfamily\greekfont[Script=Greek]{Gentium Plus}
 \newfontfamily\greekfontsf[Script=Greek]{Gentium Plus}
 
+% Multi-language support
 \usepackage{polyglossia}
 \usepackage{csquotes}
 \setdefaultlanguage{english}
 \setotherlanguage[variant=ancient]{greek}
 
+% Bibliography
 \usepackage[backend=biber, bibencoding=utf8]{biblatex}
 \addbibresource{bibliography.bib}
 
+% ams
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+
+% Formatting and custom environments
 \usepackage[printsolution=true]{exercises}
 \usepackage{minted}
-% \usepackage[finalizecache,cachedir=./texout]{minted}
 
+% Counters
 \usepackage{chngcntr}
 
 \counterwithin*{equation}{section}
