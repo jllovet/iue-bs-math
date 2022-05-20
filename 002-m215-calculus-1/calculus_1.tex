@@ -28,6 +28,9 @@
 \usepackage{amssymb}
 
 % Formatting and custom environments
+\usepackage[dvipsnames]{xcolor}
+\usepackage{nicefrac}
+
 \usepackage[printsolution=true]{exercises}
 \usepackage{minted}
 
@@ -50,11 +53,6 @@
 \usepgfplotslibrary{statistics}
 \usepgfplotslibrary{fillbetween}
 
-%colours
-\usepackage{xcolor}
-
-\usepackage{nicefrac}
-
 %tikzpicture
 \usepackage{tikz}
 \usepackage{scalerel}
@@ -69,11 +67,8 @@
   standard/.style={
     axis line style = thick,
     trig format=rad,
-    enlargelimits,
     axis x line*=middle,
     axis y line*=middle,
-    enlarge x limits=0.15,
-    enlarge y limits=0.15,
     every axis x label/.style={at={(current axis.right of origin)},anchor=north west},
     every axis y label/.style={at={(current axis.above origin)},anchor=south east},
     grid=both,

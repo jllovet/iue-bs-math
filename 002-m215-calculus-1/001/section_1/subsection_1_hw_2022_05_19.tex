@@ -112,3 +112,116 @@
         \hfill ANS $\square$
     \end{solution}
 \end{homework}
+
+
+\begin{homework}
+    \newpage
+    \date{May 19, 2022}
+
+    \begin{exercise}
+        \textbf{Given:}
+        \begin{itemize}
+            \item Two pairs of temperatures in Fahrenheit and Celsius $ (F, C) $:
+            \begin{itemize}
+                \item $ (212, 100) $
+                \item $ (32, 0) $
+            \end{itemize}
+        \end{itemize}
+
+        \textbf{Find:}
+        \begin{itemize}
+            \item The linear equation represented by the function $ C = c(F) $
+            that returns the corresponding value in Celsius when given a temperature in Fahrenheit.
+            \item The temperature where $ C = F $
+        \end{itemize}
+    \end{exercise}
+    \rule{\textwidth}{0.4pt}
+
+    \begin{solution}
+        
+        Since we have two pairs of temperatures, we can treat these as points of our function $ c(F) $.
+        Using this, we can calculate the slope as follows:
+
+        \begin{align*}
+            m &= \frac{C_2 - C_1}{F_2 - F_1}
+                &&\text{(definition)}\\
+              &= \frac{100-0}{212-32}
+                &&\text{(substitution)}\\
+              &= \frac{100}{180}
+                &&\text{(simplifying)}\\
+            &= \frac{5}{9}
+                &&\text{(simplifying)}
+        \end{align*}
+        
+        Since we know the slope $m$ of $c(F)$, but we do not know the $y$-intercept $b$,
+        we can use the \textit{Point-Slope Form} of the linear equation $c(F)$ to find the rest of the function.
+        
+        Using the pair of temperature values $ (212, 100) $:
+        \begin{align*}
+            C - C_1 &= m(F - F_1)
+                &&\text{(definition)}\\
+            C - 100 &= m(F - 212)
+                &&\text{(substitution)}\\
+            C &= \frac{5}{9}(F - 212) + 100
+                &&\text{(adding $100$)}\\
+              &= \frac{5}{9}F - \frac{5}{9}(212) + 100
+                &&\text{(factoring)}\\
+              &= \frac{5}{9}F - \frac{1060}{9} + 100
+                &&\text{(simplifying)}\\
+              &= \frac{5}{9}F - \frac{1060}{9} + \frac{900}{9}
+                &&\text{(changing denominator)}\\
+              &= \frac{5}{9}F - \frac{160}{9}
+                &&\text{(simplifying)}
+        \end{align*}
+
+        Now we have our linear equation for converting temperatures in Fahrenheit to ones in Celsius.
+        Graphing our equation, we can see that at -40, the values are equal.
+
+        \begin{tikzpicture}
+            \begin{axis}[standard,
+                title={$ C = \frac{5}{9}F - \frac{160}{9} $},
+                width=10cm,
+                xtick distance=40,
+                ytick distance=40,
+                samples=2000,
+                xlabel={$F$},
+                ylabel={$C$},
+                xmin=-100,xmax=250,
+                ymin=-100,ymax=200,
+            ]
+        
+            \addplot[line width=0.4mm, red, domain={-120:250}]{5/9*x - 160/9} node[right,pos=1] {$g(x)$};;
+            \end{axis}
+        \end{tikzpicture}
+
+        Demonstrating this algebraically:
+        \begin{align*}
+            C &= F\\
+            C &= \frac{5}{9} C - \frac{160}{9}
+                &&\text{(substitution)}\\
+            C - \frac{5}{9} C &= - \frac{160}{9}
+                &&\text{(subtracting)}\\
+            C (1 - \frac{5}{9}) &= - \frac{160}{9}
+                &&\text{(factoring)}\\
+            C &= - \left( \frac{160}{9} \right)\frac{1}{4/9}
+                &&\text{(dividing)}\\
+              &= - \left( \frac{160}{9} \right)\frac{9}{4}
+                &&\text{(taking reciprocal)}\\
+              &= - \frac{160}{4}
+                &&\text{(simplifying)}\\
+              &= - 40
+                &&\text{(simplifying)}
+        \end{align*}
+        
+        \fbox{\parbox{\textwidth}{
+            Therefore,
+            \begin{itemize}
+                \item $c(F) = C = \frac{5}{9}F - \frac{160}{9}$
+                \item At $-40$, $ F = C $
+            \end{itemize}
+            }
+        }
+        \nopagebreak
+        \hfill ANS $\square$
+    \end{solution}
+\end{homework}
