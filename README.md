@@ -4,7 +4,6 @@ Here you will find my notebooks, papers, code and other work towards the IUE B.S
 
    > La filosofia è scritta in questo grandissimo libro che continuamente ci sta aperto innanzi a gli occhi (io dico l'universo), ma non si può intendere se prima non s'impara a intender la lingua, e conoscer i caratteri, ne' quali è scritto. Egli è scritto in lingua matematica, e i caratteri son triangoli, cerchi, ed altre figure geometriche, senza i quali mezi è impossibile a intenderne umanamente parola; senza questi è un aggirarsi vanamente per un oscuro laberinto.
       Galileo, Il Saggiatore
-
    >**Note:** Some of the projects in this repo will require some software dependencies. See [here](#Environment-Setup).
 
 If you'd like to help support my studies and projects like this repo, I'd be delighted if you bought me a coffee.
@@ -12,42 +11,43 @@ If you'd like to help support my studies and projects like this repo, I'd be del
 <a href="https://www.buymeacoffee.com/jllovet"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=jllovet&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 ## Contents
+
 - [Indiana University East - Bachelors of Science in Mathematics 🧮](#indiana-university-east---bachelors-of-science-in-mathematics-)
   - [Contents](#contents)
-- [About](#about)
+  - [About](#about)
     - [Core Courses](#core-courses)
     - [Electives](#electives)
-- [Tools and Resources](#tools-and-resources)
-  - [Environment Setup](#environment-setup)
-  - [MarkDown](#markdown)
-  - [LaTeX](#latex)
-    - [Books on LaTeX](#books-on-latex)
-    - [Examples](#examples)
-    - [Discussions and Tutorials](#discussions-and-tutorials)
-  - [Citations and Bibliographies](#citations-and-bibliographies)
-    - [Discussions](#discussions)
-    - [Tools and Packages](#tools-and-packages)
-      - [Zotero](#zotero)
-      - [biblatex and biber](#biblatex-and-biber)
-      - [amsrefs](#amsrefs)
-      - [MathSciNet](#mathscinet)
-  - [Knowledge Management System ፨ 👨🏻‍💻 📄](#knowledge-management-system---)
-  - [Visualizations and Math Tools](#visualizations-and-math-tools)
-    - [Jupyter](#jupyter)
-    - [Python Packages](#python-packages)
-    - [Standalone Tools](#standalone-tools)
-  - [Software Engineering](#software-engineering)
-  - [Math Resources](#math-resources)
-    - [Tools, Calculators, and Interactive Courses](#tools-calculators-and-interactive-courses)
+  - [Tools and Resources](#tools-and-resources)
+    - [Environment Setup](#environment-setup)
+    - [MarkDown](#markdown)
+    - [LaTeX](#latex)
+      - [Books on LaTeX](#books-on-latex)
+      - [Examples](#examples)
+      - [Discussions and Tutorials](#discussions-and-tutorials)
+    - [Citations and Bibliographies](#citations-and-bibliographies)
+      - [Discussions](#discussions)
+      - [Tools and Packages](#tools-and-packages)
+        - [Zotero](#zotero)
+        - [biblatex and biber](#biblatex-and-biber)
+        - [amsrefs](#amsrefs)
+        - [MathSciNet](#mathscinet)
+    - [Knowledge Management System ፨ 👨🏻‍💻 📄](#knowledge-management-system---)
+    - [Visualizations and Math Tools](#visualizations-and-math-tools)
+      - [Jupyter](#jupyter)
+      - [Python Packages](#python-packages)
+      - [Standalone Tools](#standalone-tools)
+    - [Software Engineering](#software-engineering)
+    - [Math Resources](#math-resources)
+      - [Tools, Calculators, and Interactive Courses](#tools-calculators-and-interactive-courses)
     - [Channels](#channels)
-    - [Fields of Mathematics and Self-Study Roadmaps](#fields-of-mathematics-and-self-study-roadmaps)
-    - [Chapters, Papers, etc.](#chapters-papers-etc)
-    - [Geometry](#geometry)
-    - [Algebra](#algebra)
-    - [Precalculus](#precalculus)
-    - [Calculus](#calculus)
+      - [Fields of Mathematics and Self-Study Roadmaps](#fields-of-mathematics-and-self-study-roadmaps)
+      - [Chapters, Papers, etc](#chapters-papers-etc)
+      - [Geometry](#geometry)
+      - [Algebra](#algebra)
+      - [Precalculus](#precalculus)
+      - [Calculus](#calculus)
 
-# About
+## About
 
 [IUE - Bachelors of Science in Mathematics](https://www.iue.edu/online/degrees-certificates/bachelor-of-science-mathematics.html)
 
@@ -58,6 +58,7 @@ In each of the sections below, as I take classes, I will include links to my wor
 ![Course Dependencies](school.png)
 
 The following are required courses for the program
+
 - [MATH-M 215 Calculus I (5 Credits)](https://s3.amazonaws.com/calculus-1.iue-bs-math.jllovet.com/calculus_1.pdf)
 - MATH-M 216 Calculus II (5 Credits)
 - MATH-M 303 Linear Algebra (3 Credits)
@@ -86,16 +87,17 @@ The following are courses from which I will choose, pending discussions with aca
 - MATH-T 321 Intuitive Topology (3 Credits)
 - MATH-T 336 Topics in Euclidean Geometry (3 Credits)
 
-# Tools and Resources
-
+## Tools and Resources
 
 Articles and resources about sundry topics you may need for interacting with my repository, but that you may not be familiar with yet, depending on your background.
 
-## Environment Setup
+### Environment Setup
+
 Where possible, I will provide a containerized environment for any work that uses software, to abstract away the setup. To do this, I will primarily use Docker. Docker is a tool used frequently in software engineering for creating containers, which are similar to lightweight virtual machines, but make more efficient use of the resources of the underlying host machine. 
+
 - [Docker Overview](https://docs.docker.com/get-started/overview/)
 
-## MarkDown
+### MarkDown
 
 This document is in Markdown!
 
@@ -105,12 +107,12 @@ This document is in Markdown!
 - [Markdown (Github's flavor)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Dillinger (An Online Markdown Previewer)](https://dillinger.io/)
 
-## LaTeX
+### LaTeX
 
    > LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the communication and publication of scientific documents. LaTeX is available as free software.
    Source: [https://www.latex-project.org/](https://www.latex-project.org/)
 
-### Books on LaTeX
+#### Books on LaTeX
 
 - [Books on LaTeX](https://www.latex-project.org/help/books/)
 - [Practical LaTeX](https://www.amazon.com/Practical-LaTeX-George-Gr%C3%A4tzer/dp/331906424X)
@@ -118,11 +120,11 @@ This document is in Markdown!
 - [More Math into LaTeX](https://www.amazon.com/More-Math-Into-LaTeX-4th/dp/0387322892)
 - [LaTeX in 157 Minutes](https://www.amazon.com/Latex-157-minutes-Short-Introduction/dp/9881443628)
 
-### Examples
+#### Examples
 
 - [Overleaf LaTeX Book Gallery](https://www.overleaf.com/gallery/tagged/book)
 
-### Discussions and Tutorials
+#### Discussions and Tutorials
 
 - [Dr. Trefor Bazett - Intro to LaTeX Part I](https://www.youtube.com/watch?v=Jp0lPj2-DQA)
 - [Dr. Trefor Bazett - Intro to LaTeX Part II](https://www.youtube.com/watch?v=-HvRvBjBAvg)
@@ -130,47 +132,56 @@ This document is in Markdown!
 - [Compiling LaTeX Locally on macOS with VS Code and Git](https://jrwang.ca/2020/01/13/latex-vscode-git/)
 
 You can find a summary of my LaTeX setup here:
+
 - [jllovet LaTeX Setup](https://github.com/jllovet/iue-bs-math/000-setup/README.md)
 
-## Citations and Bibliographies
+### Citations and Bibliographies
 
-### Discussions
+#### Discussions
 
 - [Bibliographies - Stylistic conventions for bibliographies in mathematical writing](https://faculty.math.illinois.edu/~hildebr/tex/tips-bibliographies.html)
 - [Wikibooks - LaTeX Bibliography Management](https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management)
 
-### Tools and Packages
+#### Tools and Packages
 
-#### Zotero
+##### Zotero
+
    > Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.
    Source: [https://www.zotero.org/](https://www.zotero.org/)
 
 - I use Zotero to generate .bib files for myself to use in my LaTeX documents. See below on Biblatex.
-#### biblatex and biber
+
+##### biblatex and biber
+
    > The biblatex package is becoming the definitive citation management tool for LaTeX users. Biblatex provides a powerful and flexible macro interface for authors of citation styles.
    Biblatex's own data backend processor, biber, allows biblatex to offer [a lot of] features.
    Source: [http://biblatex-biber.sourceforge.net/](http://biblatex-biber.sourceforge.net/)
 
 - If you're interested, you should read [this article on CICD for LaTeX](https://ljvmiranda921.github.io/notebook/2018/04/23/postmortem-shift-to-docker/), which deals with these packages.
-#### amsrefs
+
+##### amsrefs
+
 amsrefs is a LATEX package for preparing bibliography or reference lists.
+
 - [User’s Guide to the amsrefs Package](http://www.bakoma-tex.com/doc/latex/amsrefs/amsrdoc.pdf)
 - [American Mathematical Society - TeX Resources](http://www.ams.org/publications/authors/tex/tex)
 
-#### MathSciNet
+##### MathSciNet
+
 MathSciNet is a database of known mathematics and science journals provided by the American Mathematical 
 Society. It is available by subscription only.
 
 - [mathscinet](https://mathscinet.ams.org/mathscinet)
 
-## Knowledge Management System ፨ 👨🏻‍💻 📄
+### Knowledge Management System ፨ 👨🏻‍💻 📄
+
 I'm trying out [Obsidian](https://obsidian.md/) to manage a knowledge graph for myself with Markdown and will be storing in this repository. Running notes will be in Markdown with mathematical sketches in inline LaTeX and embedded diagrams generated from other tools. Since Markdown is plain-text, this knowledge graph will be maintainable through git, like the rest of the project. It will be consumable through Obsidian or [Foam](https://foambubble.github.io/foam/) (one of its VSCode-plugin competitors).
 
 - [Citations](https://www.marianamontes.me/post/obsidian-and-zotero/) plugin for Obsidian To Use .bib files from [Zotero](https://www.zotero.org/) to import bibliographies
 
-## Visualizations and Math Tools
+### Visualizations and Math Tools
 
-### Jupyter
+#### Jupyter
 
 Jupyter provides interactive coding notebooks that make it easy to prototype, create visualizations and interactive presentations, and to make the software used in research more transparent. Jupyter notebooks are used widely both in industry and in academia.
 I will use Python-based Jupyter notebooks primarily, but other programming languages are supported. You can find out more about the project here.
@@ -179,45 +190,46 @@ I will use Python-based Jupyter notebooks primarily, but other programming langu
 
 I have defined a docker image that builds on the [Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) that are maintained by the Jupyter Team. That image can be found in Docker Hub under [jllovet/math-notebook](https://hub.docker.com/r/jllovet/math-notebook), and the definition can be found in this repository under [000-setup/jupyter](https://github.com/jllovet/iue-bs-math/tree/main/000-setup/jupyter), where you can also find usage instructions.
 
-### Python Packages
-- [numpy](https://numpy.org/)
-   
-   - [NumPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=DcfYgePyedM)
-   - [Numerical Computing With NumPy Tutorial | SciPy 2020 | Eric Olsen](https://www.youtube.com/watch?v=NwYt5FKBsGU&list=PLYx7XA2nY5Gde-6QO98KUJ9iL_WW4rgYf&index=3)
-   - [Complete Python NumPy Tutorial (Creating Arrays, Indexing, Math, Statistics, Reshaping)](https://www.youtube.com/watch?v=GB9ByFAIAH4)
+#### Python Packages
+
+- [numpy](https://numpy.org/)  
+  - [NumPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=DcfYgePyedM)
+  - [Numerical Computing With NumPy Tutorial | SciPy 2020 | Eric Olsen](https://www.youtube.com/watch?v=NwYt5FKBsGU&list=PLYx7XA2nY5Gde-6QO98KUJ9iL_WW4rgYf&index=3)
+  - [Complete Python NumPy Tutorial (Creating Arrays, Indexing, Math, Statistics, Reshaping)](https://www.youtube.com/watch?v=GB9ByFAIAH4)
 
 - [matplotlib](https://matplotlib.org/)
-
-   - [Matplotlib Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=cTJBJH8hacc)
+  - [Matplotlib Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=cTJBJH8hacc)
 
 - [scipy](https://scipy.org/)
-
-   - [SciPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=jmX4FOUEfgU)
+  - [SciPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=jmX4FOUEfgU)
 
 - [sympy](https://github.com/sympy/sympy)
-
-   - [SymPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=1yBPEPhq54M)
+  - [SymPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=1yBPEPhq54M)
 
 - [handcalcs](https://github.com/connorferster/handcalcs)
 - [plotly](https://plotly.com/)
 - [diagrams](https://diagrams.mingrammer.com/)
 - [manim](https://www.manim.community/)
 
-### Standalone Tools
+#### Standalone Tools
+
 - [Graphviz](https://www.graphviz.org/)
 
-## Software Engineering
+### Software Engineering
+
 - [Git](https://git-scm.com/)
 - [Docker](https://docs.docker.com/get-started/overview/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-## Math Resources
+### Math Resources
 
-### Tools, Calculators, and Interactive Courses
+#### Tools, Calculators, and Interactive Courses
+
 - [Geogebra](https://www.geogebra.org/calculator)
 - [Brilliant](https://brilliant.org/daily-problems/)
 
 ### Channels
+
 - [3b1b](https://www.youtube.com/c/3blue1brown)
 - [Khan Academy](https://www.youtube.com/c/khanacademy)
 - [The Organic Chemistry Tutor](https://www.youtube.com/channel/UCEWpbFLzoYGPfuWUMFPSaoA)
@@ -225,24 +237,33 @@ I have defined a docker image that builds on the [Docker Stacks](https://jupyter
 - [Numberphile](https://www.youtube.com/c/numberphile)
 - [Prof. Redden](https://www.youtube.com/c/JohnRedden/playlists)
 - [Cowan Academy](https://www.youtube.com/c/CowanAcademy)
-### Fields of Mathematics and Self-Study Roadmaps
+
+#### Fields of Mathematics and Self-Study Roadmaps
+
 - [The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
 - [How to self study pure math - a step-by-step guide](https://www.youtube.com/watch?v=byNaO_zn2fI)
 
-### Chapters, Papers, etc.
+#### Chapters, Papers, etc
+
 - [Algebra Review from Calculus: Early Transcendentals, Third Edition](https://media.pearsoncmg.com/aw/aw_briggs_calculus_et_3/online_pdf/bccalcet03_appendix_b.pdf)
 
-### Geometry
+#### Geometry
+
 - [Translations Reflections and Rotations - Geometric Transformations!](https://www.youtube.com/watch?v=GqHWdTLL8Qw)
-### Algebra
+
+#### Algebra
+
 - [College Algebra - Full Course](https://www.youtube.com/watch?v=LwCRRUa8yTU)
 - [Completing the Square](https://www.youtube.com/watch?v=C206SNAXDGE)
 - [Synthetic Division of Polynomials](https://www.youtube.com/watch?v=FxHWoUOq2iQ)
-### Precalculus
+
+#### Precalculus
+
 - [Precalculus Course](https://www.youtube.com/watch?v=eI4an8aSsgw)
 - [Precalculus Introduction, Basic Overview, Graphing Parent Functions, Transformations, Domain & Range](https://www.youtube.com/watch?v=JrWJnwCMlP0)
 
-### Calculus
+#### Calculus
+
 - [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 - [New Calculus Video Playlist - The Organic Chemistry Tutor](https://www.youtube.com/watch?v=GiCojsAWRj0&list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv)
 - [MIT OCW Youtube Playlist - Fall 2007](https://www.youtube.com/watch?v=7K1sB05pE0A&list=PL590CCC2BC5AF3BC1)
