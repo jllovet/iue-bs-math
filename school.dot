@@ -1,0 +1,95 @@
+digraph G {
+    splines="FALSE";
+    rankdir=TB;
+    ratio=1;
+    ranksep=2;
+
+    subgraph cluster_math_undergrad {
+        label="Indiana University East - Math Undergrad"
+        labelloc=bottom
+        iue_calculus_1_215 [label="MATH-M 215\nCalculus I\n(5 cr)"]
+        iue_calculus_2_216 [label="MATH-M 216\nCalculus II\n(5 cr)"]
+        iue_readings_and_research_295 [label="MATH-M 295\nReadings and\nResearch \n(1-3 cr)"]
+        iue_applied_linear_algebra_301 [label="MATH-M 301\nApplied\nLinear Algebra\n(3 cr)"]
+        iue_linear_algebra_for_undergrads_303 [label="MATH-M 303\nLinear Algebra\nfor Undergrads\n(3 cr)"]
+        iue_calculus_3_311 [label="MATH-M 311\nCalculus III\n(3 cr)"]
+        iue_calculus_4_312 [label="MATH-M 312\nCalculus IV\n(3 cr)"]
+        iue_elementary_differential_equations_with_applications_313 [label="MATH-M 313\nElementary Differential\nEquations with Applications\n(3 cr)"]
+        iue_elements_of_statistical_inference_366 [label="MATH-M 366\nElements of\nStatistical Inference\n(3 cr)"]
+        iue_elem_computational_methods_371 [label="MATH-M 371\nElementary\nComputational Methods\n(3 cr)"]
+        iue_history_of_mathematics_380 [label="MATH-M 380\nHistory of\nMathematics\n(3 cr)"]
+        iue_logic_384 [label="MATH-M 384\nLogic\n(3 cr)"]
+        iue_bridge_to_abstract_mathematics_393 [label="MATH-M 393\nBridge to\nAbstract Mathematics\n(3 cr)"]
+        iue_introduction_to_modern_algebra_1_403 [label="MATH-M 403\nIntroduction to\nModern Algebra I\n(3 cr)"]
+        iue_introduction_to_modern_algebra_2_404 [label="MATH-M 404\nIntroduction to\nModern Algebra II\n(3 cr)"]
+        iue_number_theory_405 [label="MATH-M 405\nNumber\nTheory\n(3 cr)"]
+        iue_topics_in_mathematics_406 [label="MATH-M 406\nTopics in\nMathematics\n(3 cr)"]
+        iue_introduction_to_analysis_1_413 [label="MATH-M 413\nIntroduction to\nAnalysis I\n(3 cr)"]
+        iue_introduction_to_analysis_2_414 [label="MATH-M 414\nIntroduction to\nAnalysis II\n(3 cr)"]
+        iue_introduction_to_topology_1_421 [label="MATH-M 421\nIntroduction to\nTopology I\n(3 cr)"]
+        iue_introduction_to_topology_2_422 [label="MATH-M 422\nIntroduction to\nTopology II\n(3 cr)"]
+        iue_math_models_and_applications_1_447 [label="MATH-M 447\nMath Models and\nApplications I\n(3 cr)"]
+        iue_math_models_and_applications_2_448 [label="MATH-M 448\nMath Models and\nApplications II\n(3 cr)"]
+        iue_the_mathematics_of_finance_451 [label="MATH-M 451\nThe Mathematics of\nFinance\n(3 cr)"]
+        iue_introduction_to_probability_theory_1_463 [label="MATH-M 463\nIntroduction to\nProbability Theory I\n(3 cr)"]
+        iue_introduction_to_mathematical_statistics_466 [label="MATH-M 466\nIntroduction to\nMathematical Statistics\n(3 cr)"]
+        iue_senior_seminar [label="MATH-M 499\nSenior\nSeminar\n(3 cr)"]
+    }
+    
+    iue_calculus_1_215 -> {
+        iue_calculus_2_216,
+        iue_elements_of_statistical_inference_366,
+        iue_history_of_mathematics_380
+    }
+    
+    iue_calculus_2_216 -> {
+        iue_applied_linear_algebra_301,
+        iue_linear_algebra_for_undergrads_303,
+        iue_calculus_3_311,
+        iue_elementary_differential_equations_with_applications_313,
+        iue_elem_computational_methods_371,
+        iue_bridge_to_abstract_mathematics_393,
+        iue_number_theory_405
+    }
+    iue_linear_algebra_for_undergrads_303 -> {
+        iue_introduction_to_probability_theory_1_463,
+        iue_introduction_to_modern_algebra_1_403,
+        iue_math_models_and_applications_1_447
+    }
+
+    iue_applied_linear_algebra_301 -> {
+        iue_introduction_to_modern_algebra_1_403,
+        iue_the_mathematics_of_finance_451,
+        iue_math_models_and_applications_1_447
+    }
+    
+    iue_calculus_3_311 -> {
+        iue_calculus_4_312,
+        iue_introduction_to_modern_algebra_1_403,
+        iue_introduction_to_analysis_1_413,
+        iue_the_mathematics_of_finance_451,
+        iue_introduction_to_probability_theory_1_463
+    }
+
+    iue_bridge_to_abstract_mathematics_393 -> {
+        iue_introduction_to_modern_algebra_1_403,
+        iue_introduction_to_analysis_1_413,
+        iue_logic_384
+    }
+    iue_introduction_to_analysis_1_413 -> {
+        iue_introduction_to_analysis_2_414
+    }
+    iue_introduction_to_modern_algebra_1_403 -> {
+        iue_introduction_to_modern_algebra_2_404,
+        iue_introduction_to_topology_1_421
+    }
+    iue_introduction_to_topology_1_421 -> {
+        iue_introduction_to_topology_2_422
+    }
+    iue_math_models_and_applications_1_447 -> {
+        iue_math_models_and_applications_2_448
+    }
+    iue_introduction_to_probability_theory_1_463 -> {
+        iue_introduction_to_mathematical_statistics_466
+    }
+}

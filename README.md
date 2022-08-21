@@ -55,6 +55,8 @@ In each of the sections below, as I take classes, I will include links to my wor
 
 ### Core Courses
 
+![Course Dependencies](school.png)
+
 The following are required courses for the program
 - [MATH-M 215 Calculus I (5 Credits)](https://s3.amazonaws.com/calculus-1.iue-bs-math.jllovet.com/calculus_1.pdf)
 - MATH-M 216 Calculus II (5 Credits)
